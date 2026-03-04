@@ -13,8 +13,5 @@ model = ChatGoogleGenerativeAI(
 user_input = st.text_input("Enter your question:")
 
 if user_input:
-    try:
-        response = model.invoke(user_input)
-        st.write(response.content)
-    except Exception as e:
-        st.error("Something went wrong. Check API key or model access.")
+    response = model.invoke(user_input)
+    st.write(response.content)
