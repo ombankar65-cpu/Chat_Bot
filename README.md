@@ -19,6 +19,4 @@ Technologies used:
 
 This project demonstrates how to integrate a large language model with a web interface and deploy it online.
 
----
 
-If you want even shorter (like 4–5 lines only), tell me 😄
