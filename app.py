@@ -5,7 +5,7 @@ from langchain_core.messages import HumanMessage, AIMessage
 
 # --- App Configuration ---
 st.set_page_config(page_title="Gemini Chatbot", page_icon="🤖")
-st.title("🤖 Gemini 2.5 Flash-Lite Chat")
+st.title("🤖 Chat Bot ")
 
 # --- Sidebar: API Key ---
 with st.sidebar:
